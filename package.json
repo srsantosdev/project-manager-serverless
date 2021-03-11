@@ -1,0 +1,42 @@
+{
+  "name": "project-manager",
+  "version": "1.0.0",
+  "scripts": {
+    "typeorm": "ts-node-dev -r tsconfig-paths/register ./node_modules/typeorm/cli.js"
+  },
+  "dependencies": {
+    "aws-lambda": "^1.0.6",
+    "dotenv": "^8.2.0",
+    "reflect-metadata": "^0.1.13",
+    "source-map-support": "^0.5.19",
+    "tsyringe": "^4.4.0",
+    "typeorm": "^0.2.31"
+  },
+  "devDependencies": {
+    "@serverless/typescript": "^2.16.0",
+    "@types/aws-lambda": "^8.10.64",
+    "@types/node": "^14.14.6",
+    "@typescript-eslint/eslint-plugin": "^4.15.1",
+    "@typescript-eslint/parser": "^4.15.1",
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "fork-ts-checker-webpack-plugin": "^6.0.0",
+    "json-schema-to-ts": "^1.4.1",
+    "prettier": "^2.2.1",
+    "serverless": "^2.16.0",
+    "serverless-webpack": "^5.2.0",
+    "ts-loader": "^8.0.10",
+    "ts-node": "^9.0.0",
+    "ts-node-dev": "^1.1.1",
+    "tsconfig-paths": "^3.9.0",
+    "tsconfig-paths-webpack-plugin": "^3.3.0",
+    "typescript": "^4.0.5",
+    "webpack": "^5.4.0",
+    "webpack-node-externals": "^2.5.2"
+  },
+  "license": "MIT"
+}
